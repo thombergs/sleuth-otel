@@ -1,0 +1,93 @@
+Warning: JAVA_HOME environment variable is not set.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.example:myproject >------------------------
+[INFO] Building myproject 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ myproject ---
+[INFO] com.example:myproject:jar:0.0.1-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.5.6:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.5.6:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.5.6:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.5.6:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.5.6:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.6:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.6:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.14.1:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.14.1:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.32:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO] |  |  +- org.springframework:spring-core:jar:5.3.12:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.28:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.5.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.12.5:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.12.5:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.12.5:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.12.5:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.12.5:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.12.5:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.5.6:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.54:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.54:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.54:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.3.12:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.3.12:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.3.12:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.3.12:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.3.12:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.3.12:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-actuator:jar:2.5.6:compile
+[INFO] |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.5.6:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-actuator:jar:2.5.6:compile
+[INFO] |  \- io.micrometer:micrometer-core:jar:1.7.5:compile
+[INFO] |     +- org.hdrhistogram:HdrHistogram:jar:2.1.12:compile
+[INFO] |     \- org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+[INFO] +- org.springframework.cloud:spring-cloud-starter-sleuth:jar:3.0.4:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter:jar:3.0.4:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-context:jar:3.0.4:compile
+[INFO] |  |  |  \- org.springframework.security:spring-security-crypto:jar:5.5.3:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-commons:jar:3.0.4:compile
+[INFO] |  |  \- org.springframework.security:spring-security-rsa:jar:1.0.10.RELEASE:compile
+[INFO] |  |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.68:compile
+[INFO] |  |        \- org.bouncycastle:bcprov-jdk15on:jar:1.68:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-aop:jar:2.5.6:compile
+[INFO] |  |  \- org.aspectj:aspectjweaver:jar:1.9.7:compile
+[INFO] |  \- org.springframework.cloud:spring-cloud-sleuth-autoconfigure:jar:3.0.4:compile
+[INFO] |     \- org.aspectj:aspectjrt:jar:1.9.7:compile
+[INFO] +- org.springframework.cloud:spring-cloud-sleuth-otel-autoconfigure:jar:1.1.0-M3:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-sleuth-instrumentation:jar:3.0.4:compile
+[INFO] |  |  \- org.springframework.cloud:spring-cloud-sleuth-api:jar:3.0.4:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-sleuth-otel:jar:1.1.0-M3:compile
+[INFO] |  |  +- org.springframework:spring-jcl:jar:5.3.12:compile
+[INFO] |  |  \- io.opentelemetry:opentelemetry-extension-aws:jar:1.7.0:compile
+[INFO] |  +- io.opentelemetry:opentelemetry-api:jar:1.7.0:compile
+[INFO] |  |  \- io.opentelemetry:opentelemetry-context:jar:1.7.0:compile
+[INFO] |  +- io.opentelemetry:opentelemetry-semconv:jar:1.7.0-alpha:compile
+[INFO] |  +- io.opentelemetry:opentelemetry-sdk-common:jar:1.7.0:compile
+[INFO] |  +- io.opentelemetry:opentelemetry-sdk-trace:jar:1.7.0:compile
+[INFO] |  +- io.opentelemetry:opentelemetry-sdk:jar:1.7.0:compile
+[INFO] |  +- io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.7.0:compile
+[INFO] |  +- io.opentelemetry.instrumentation:opentelemetry-instrumentation-api:jar:1.7.0-alpha:compile
+[INFO] |  |  +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] |  |  \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  \- io.opentelemetry:opentelemetry-extension-trace-propagators:jar:1.7.0:compile
+[INFO] \- io.opentelemetry:opentelemetry-exporter-otlp-trace:jar:1.7.0:compile
+[INFO]    +- io.grpc:grpc-stub:jar:1.41.0:compile
+[INFO]    |  +- com.google.guava:guava:jar:30.1-android:compile
+[INFO]    |  |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO]    |  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO]    |  |  +- org.checkerframework:checker-compat-qual:jar:2.5.5:compile
+[INFO]    |  |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO]    |  \- com.google.errorprone:error_prone_annotations:jar:2.9.0:compile
+[INFO]    +- io.opentelemetry:opentelemetry-api-metrics:jar:1.7.0-alpha:runtime
+[INFO]    +- io.opentelemetry:opentelemetry-exporter-otlp-common:jar:1.7.0:runtime
+[INFO]    |  \- io.opentelemetry:opentelemetry-sdk-metrics:jar:1.7.0-alpha:runtime
+[INFO]    \- io.grpc:grpc-api:jar:1.41.0:compile
+[INFO]       \- io.grpc:grpc-context:jar:1.41.0:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.068 s
+[INFO] Finished at: 2021-11-25T07:04:23+11:00
+[INFO] ------------------------------------------------------------------------

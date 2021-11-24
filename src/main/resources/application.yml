@@ -1,0 +1,23 @@
+debug: true
+
+spring:
+  output:
+    ansi:
+      enabled: always
+  application:
+    name: downstream-service
+
+  sleuth:
+    otel:
+      exporter:
+        otlp:
+          endpoint: foo
+
+management:
+  endpoint:
+    beans:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: beans
