@@ -11,7 +11,7 @@ spring:
     otel:
       exporter:
         otlp:
-          endpoint: foo
+          endpoint: http://foo
 
 management:
   endpoint:
